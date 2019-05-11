@@ -69,7 +69,7 @@ C:
 
 A:
 拉取并合并分支C到自己分支
-于 item.cxx
+于 item.cxx8++++
 修改 cout<<"ITEM INFO:"<<en
 为 cout<<"ITEM INFO:"<<endl;
 
