@@ -10,7 +10,7 @@ void player::showItemInfo(){
 		o->showInfo();
 	}
 }
-void player::addItem(item *i){
+void player::addItem(shared_ptr<item> i){
 	itemList.push_back(i);
 
 }

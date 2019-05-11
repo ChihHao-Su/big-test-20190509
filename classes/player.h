@@ -17,7 +17,7 @@ private:
 public:
 	void showInfo();
 	void showItemInfo();
-	void addItem(item* i);
+	void addItem(shared_ptr i);
 
 	player(string name);
 
