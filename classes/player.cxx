@@ -6,7 +6,7 @@ void player::showInfo(){
 		<<"\t"<<x<<"\t"<<y<<"\t"<<z<<endl;
 }
 void player::showItemInfo(){
-	for(auto -o : itemList){
+	for(auto &o : itemList){
 		o->showInfo();
 	}
 }
